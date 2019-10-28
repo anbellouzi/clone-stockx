@@ -1,59 +1,15 @@
 .spacer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
   background-size: auto 40px;
   background-position: 50%;
   background-image: url(https://stockx-assets.imgix.net/banners/how-it-works/howitworks-banner.jpg);
   background-color: #10364b;
   height: 40px;
 }
-.close-button {
-  float: right;
+
+.mt-negative-40 {
   margin-top: -40px;
-}
-.close-button:hover {
-  cursor: pointer;
 }
 
 .background-img {
   background-image: url(https://stockx-assets.imgix.net/headers/home_2.png?auto=compress%2Cformat);
-}
-.little {
-  font: 600 18px proxima-nova,sans-serif;
-  letter-spacing: 4px;
-  margin-bottom: 9px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.big {
-  font: 700 85px BebasNeue;
-  letter-spacing: 2px;
-  margin: auto;
-  width: 98%;
-  box-sizing: border-box;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.list-group-item {
-  background-color: transparent;
-  color: white;
-}
-.list-group-item:hover {
-  cursor: pointer;
-}
-
-
-.form-control:focus {
-  box-shadow: none;
-}
-
-.form-control-underlined {
-  border-width: 0;
-  border-bottom-width: 1px;
-  border-radius: 0;
-  padding-left: 0;
 }
